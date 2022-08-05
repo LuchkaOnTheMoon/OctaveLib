@@ -18,5 +18,5 @@
 %% Converts given power ratio DB10 from dB to linear scale.
 
 function [LIN] = fcn_Db10ToLin(DB10)
-    LIN = 10 ^ (DB10 / 10);
+    LIN = 10 .^ (DB10 ./ 10);
 end

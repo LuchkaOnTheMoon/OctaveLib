@@ -18,5 +18,5 @@
 %% Converts given level ratio DB20 from dB to linear scale.
 
 function [LIN] = fcn_Db20ToLin(DB20)
-    LIN = 10 ^ (DB20 / 20);
+    LIN = 10 .^ (DB20 ./ 20);
 end

@@ -18,5 +18,5 @@
 %% Converts given power ratio from linear scale to dB.
 
 function [DB10] = fcn_LinToDb10(LIN)
-    DB10 = 10 * log10(LIN);
+    DB10 = 10 .* log10(LIN);
 end
